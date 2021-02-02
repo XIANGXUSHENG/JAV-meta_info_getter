@@ -6,10 +6,10 @@
 * 番号格式可以是abc123/abc 123/abc-123/Abc 123/等, 形如字母+数字且中间为空格\连接符或无字符的格式, 大小写不限
 
 ## 使用方法
-1. 打开命令行
-2. 键入"python meta_info_getter.py dirname", 其中dirname为自由指定的存放有jav文件的目录名字, 并按enter运行
+1. 在meta_info_getter.exe所在的文件夹打开命令行, 或cd到那里.
+2. 键入"./meta_info_getter.exe dirname", 其中dirname为自由指定的存放有jav文件的目录名字, 并按enter运行
   例如:
-> python meta_info_getter.py Z:\xp\JAV2020\test\
+> \>./meta_info_getter.exe Z:\xp\JAV2020\test\
 
 ## 效果
 1. 如果能成功识别文件a, 文件a会被放到名字为其番号的文件夹中, 且该文件夹内同时存放有info.txt和cover.jpg
